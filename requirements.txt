@@ -1,0 +1,9 @@
+mkdocs
+mkdocs_markdown_filter
+mkdocs_material
+mkdocs_material_extensions
+mkdocs_table_reader_plugin
+pandas
+openpyxl
+pyyaml
+markdown
