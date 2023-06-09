@@ -1,0 +1,73 @@
+markdown_extensions:
+- pymdownx.highlight:
+    anchor_linenums: true
+- pymdownx.inlinehilite
+- pymdownx.snippets
+- admonition
+- pymdownx.arithmatex:
+    generic: true
+- footnotes
+- pymdownx.details
+- pymdownx.superfences:
+    custom_fences:
+    - class: mermaid
+      name: mermaid
+- pymdownx.mark
+- attr_list
+- pymdownx.emoji: null
+- def_list
+- pymdownx.tasklist:
+    custom_checkbox: true
+- tables
+nav:
+- Home:
+  - About: index.md
+- Staging:
+  - Stage Layer: Staging/mapping_spec_template.md
+- Raw Data Vault:
+  - RDV Objects: Raw Data Vault/mapping_spec_template.md
+- Business Data Vault:
+  - BDV Objects: Business Data Vault/mapping_spec_template.md
+- Presentation Layer:
+  - PL Objects: Presentation Layer/mapping_spec_template.md
+plugins:
+- search
+- markdown-filter
+- table-reader
+repo_name: Insert Data Product Repo Name Here
+repo_url: https://github.com/sainsburys-tech/
+site_name: Insert Data Product Name here
+site_url: https://mappingspecexample.com/
+theme:
+  features:
+  - navigation.tabs
+  - navigation.sections
+  - toc.integrate
+  - navigation.top
+  - navigation.expand
+  - navigation.path
+  - search.suggest
+  - search.highlight
+  - content.tabs.link
+  - content.code.annotation
+  - content.code.copy
+  - navigation.tracking
+  font:
+    text: Mary Ann
+  icon:
+    repo: fontawesome/brands/github
+  language: en
+  name: material
+  palette:
+  - accent: green
+    primary: deep orange
+    scheme: default
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
+  - accent: green
+    primary: deep orange
+    scheme: slate
+    toggle:
+      icon: material/toggle-switch
+      name: Switch to light mode
